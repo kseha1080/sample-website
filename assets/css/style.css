@@ -1,0 +1,130 @@
+body {
+    background-image: url(../images/newyork1background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: wild;
+    src: url(../fonts/WildYouth-Regular.otf);
+}
+
+.container {
+    text-align: center;
+}
+
+.brand {
+    margin-top: 200px;
+    padding: 10px;
+    font-family: 'Dynalight', cursive;
+    /* font-family: wild; */
+    font-size: 180px;
+    color: rgba(223, 180, 39, 0.952);
+    text-align: center;
+    font-weight: bold;
+}
+
+.subbrand {
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mainlink {
+    margin-top: 80px;
+    font-family: 'Dynalight', cursive;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#portfolio {
+    margin-right: 10px;
+    margin-left: 0px;
+    color: rgba(223, 180, 39, 0.952);
+}
+
+#contact {
+    color: rgba(223, 180, 39, 0.952);
+}
+
+.contactbutton {
+    color: rgba(223, 180, 39, 0.952);
+}
+
+.scrollbtn {
+    color: white;
+    font-size: 3em;
+    margin-top: 200px;
+}
+
+.navbar {
+    margin-top: 112px;
+    font-family: 'Julius Sans One', sans-serif;
+    height: 100px !important;
+    /* background-color: rgb(92, 86, 86); */
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.parallax-container {
+    width: 100vw;
+}
+
+.firstblock {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.secondheader {
+    margin-top: 25px;
+}
+
+/* #knighticon {
+    margin-right: 40px;
+    margin-left: 30px;  
+    font-size: 2rem; 
+    margin-top: 15px;
+} */
+
+/* .icons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+} */
+
+.devicon-devicon-plain,
+.devicon-amazonwebservices-original,
+.devicon-bootstrap-plain-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-express-original,
+.devicon-git-plain,
+.devicon-git-plain-wordmark,
+.devicon-github-plain,
+.devicon-heroku-line,
+.devicon-html5-plain-wordmark,
+.devicon-java-plain,
+.devicon-javascript-plain,
+.devicon-jquery-plain-wordmark,
+.devicon-mongodb-plain,
+.devicon-mysql-plain,
+.devicon-nodejs-plain,
+.devicon-python-plain-wordmark,
+.devicon-react-original,
+.devicon-ruby-plain-wordmark,
+.devicon-wordpress-plain
+{
+    font-size: 4rem;
+    margin-right: 15px;
+}
+
+.page-footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footercontent {
+    font-size: 18px;
+}
+
+
